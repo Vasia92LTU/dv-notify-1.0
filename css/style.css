@@ -1,0 +1,110 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: 'Inter', sans-serif; 
+}
+
+.notify-wrap {
+  height: auto; 
+  overflow: hidden;
+  position: fixed; 
+  top: 135px; 
+  right: 0; 
+  padding: calc(0.092592592vh * 30) calc(0.092592592vh * 20);
+  max-width: calc(0.092592592vh * 320);
+}
+
+.notify-timer {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  transform: scale(1.4) rotate(-90deg);
+}
+
+.notification-bg {
+  color: #fff;
+  margin: 6px;
+  text-align: left;
+  padding: calc(0.092592592vh * 5) calc(0.092592592vh * 10);
+  position: relative;
+  font-size: calc(0.092592592vh * 12);
+  font-family: 'Inter', sans-serif; 
+
+  background: linear-gradient(to left, rgba(1, 88, 71, 0.90), rgba(0, 10, 8, 0.3));
+  border: 2px solid transparent;
+  border-image: linear-gradient(to left, rgba(4, 255, 199, 0.9), rgba(4, 255, 199, 0));
+  border-image-slice: 1;
+
+  display: flex; 
+  max-width: calc(0.092592592vh * 320);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.notification-bg:after {
+  content: 'SUCCESS'; 
+  position: absolute;
+  bottom: -6px; 
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  font-size: 10px; 
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 3; 
+  pointer-events: none; 
+}
+
+.notification-bg span {
+  width: 100%;
+  padding-right: 10%;
+  font-family: 'Inter', sans-serif; 
+  font-weight: 400;
+}
+
+.notification-bg .icon {
+  transform: translateY(10%);
+}
+
+.red {
+  background: linear-gradient(to left, rgba(88, 1, 1, 0.9), rgba(10, 0, 0, 0.3));
+  border: 2px solid transparent;
+  border-image: linear-gradient(to left, rgba(255, 4, 4, 0.9), rgba(255, 4, 4, 0));
+  border-image-slice: 1;
+}
+
+.red:after {
+  content: 'ERROR'; 
+  position: absolute;
+  bottom: -6px; 
+  left: 50%; 
+  transform: translate(-50%, 0); 
+  font-size: 10px; 
+  color: rgba(255, 255, 255, 0.7);
+  z-index: 3; 
+  pointer-events: none; 
+}
+
+.red .progressCircle {
+  stroke: #B94141;
+}
+
+.taxi {
+  background: linear-gradient(to left, rgba(88, 75, 1, 0.9), rgba(10, 8, 0, 0.3));
+  border: 2px solid transparent;
+  border-image: linear-gradient(to left, rgba(255, 188, 4, 0.9), rgba(255, 155, 4, 0));
+  border-image-slice: 1;
+}
+
+.taxi .progressCircle {
+  stroke: #B99F41;
+}
+
+.medical {
+  background: linear-gradient(to left, rgba(88, 75, 1, 0.9), rgba(10, 8, 0, 0.3));
+  border: 2px solid transparent;
+  border-image: linear-gradient(to left, rgba(255, 188, 4, 0.9), rgba(255, 155, 4, 0));
+  border-image-slice: 1;
+}
+
+.medical .progressCircle {
+  stroke: #B99F41;
+}
