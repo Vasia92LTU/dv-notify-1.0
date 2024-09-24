@@ -16,3 +16,5 @@ Detailed instructions for installation and configuration are provided in the `IN
 Good luck and have fun with dv-notify!
 
 ---
+
+![github notiification photo](https://github.com/user-attachments/assets/2ece5fe1-a22c-468a-9a26-26df7bc60ec9)
