@@ -17,4 +17,6 @@ Good luck and have fun with dv-notify!
 
 ---
 
-![github notiification photo](https://github.com/user-attachments/assets/2ece5fe1-a22c-468a-9a26-26df7bc60ec9)
+![Notify 540x540 1](https://github.com/user-attachments/assets/0f1363cc-bf36-4cef-9bfe-c767cf5ee9db)
+
+---
